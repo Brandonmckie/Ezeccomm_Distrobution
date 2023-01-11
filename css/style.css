@@ -738,6 +738,11 @@ header .top_header ul li:last-child {
   margin:60px 15px 0 15px;
 }
 
+.our_service.service_grid .container .row{
+margin-left: -25px;
+margin-right: -25px;
+} 
+
 .our_service {
   position: relative;
 }
@@ -4900,7 +4905,7 @@ aside .theme_title {
 }
 
 #loader-wrapper #loader {
-  color: #24BBD0;
+  color: #f03838;
   -webkit-animation: color-bubble 2s linear 0s infinite;
   animation: color-bubble 2s linear 0s infinite;
 }
