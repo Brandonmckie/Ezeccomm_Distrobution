@@ -216,6 +216,13 @@ header .top_header p,header .top_header ul li {
   vertical-align: middle;
   width: auto !important;
 }
+.tittle{
+  color: white;
+}
+p.description{
+  color: white;
+}
+
 .ui-selectmenu-button span.ui-icon {
   background-image: none;
   height:100%;
@@ -502,6 +509,8 @@ header .top_header ul li:last-child {
   right:0;
   border:none;
 }
+
+
 .nav_side_content .search_option form input {
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
@@ -537,11 +546,14 @@ header .top_header ul li:last-child {
   display: inline-block;
   border-bottom: 1px solid transparent;
 }
+.description-two{
+color:#272727;
+}
 #banner p {
   font-family: 'Montserrat-Light';
   font-size: 24px;
   line-height: 36px;
-  color:#272727;
+  /* color:#272727; */
 }
 
 #banner .contact_us,
@@ -832,7 +844,7 @@ margin-right: -25px;
 
 /*================= Why choose us =================*/
 .why_choose_us {
-  background: url(../images/home/11.jpg) no-repeat center;
+  background: url(../images/home/ecom-1920.jpg) no-repeat center;
   background-size: cover;
   height:573px;
   margin:72px 0 78px 0;
@@ -1182,12 +1194,15 @@ margin-right: -25px;
 
 /*====================== Partners =================*/
 .partners {
-  background: #f7f7f7;
+  background: #ffffff;
   padding: 62px 0 53px 0;
-  margin-top:52px;
+  margin-top:50px;
 }
 .partners .item {
   margin:0 15px 0 15px;
+}
+.contact-us{
+  color: white;
 }
 
 /*====================== Request Call Back ===================*/

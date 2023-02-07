@@ -1,10 +1,10 @@
 <?php
 
     $to = "exemple@gmail.com";
-    $from = $_REQUEST['email'];
-    $name = $_REQUEST['name'];
+    $from = $_REQUEST['zeke@ezautomatedecomm.com'];
+    $name = $_REQUEST['Zeke'];
     $headers = "From: $from";
-    $subject = "You have a message from your DYNAMIC.";
+    $subject = "You have a message from your Ezecomm Distribution";
 
     $fields = array();
     $fields{"name"} = "name";
